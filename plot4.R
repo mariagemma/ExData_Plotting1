@@ -10,7 +10,7 @@ readFile <- function(dir, file) {
   subdata <- subset(data, subset=(Date >= "2007-02-01" & Date <= "2007-02-02"))
   na.omit(subdata)
 }
-
+ 
 
 #Run
 
